@@ -1,6 +1,11 @@
-var data ={ a:1 };
+// var data ={
+//     message:'this is a tip'
+// };
+
 var vm = new Vue({
-    el: '#aaa',
-    data:data
+    el: '#app',
+    data:{
+        message:'weilie'
+    }
 });
-console.log(vm.a);
+
